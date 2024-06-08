@@ -4,7 +4,11 @@ import { AppBar, Toolbar, Button } from '@mui/material';
 
 function Menu() {
   return (
-    <h1>PRUEBA DE COMPONENETES</h1>
+    <AppBar position="static">
+      <Toolbar>
+        <h1>PRUEBA DE MENU</h1>
+      </Toolbar>
+    </AppBar>
   );
 }
 
